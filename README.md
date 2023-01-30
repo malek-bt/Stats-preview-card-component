@@ -25,15 +25,15 @@ Users should be able to:
 
 Desktop version
 
-![desktop version](/screenshots/desktop.png)
+![desktop version](desktop.png)
 
 Mobile version
 
-![mobile version](/screenshots/mobile.png)
+![mobile version](mobile.png)
 
 ### Links
 
-- Solution URL: [Code on GitHub]()
+- Solution URL: [Code on GitHub](https://github.com/malek-bt/Stats-preview-card-component)
 - Live Site URL: [GitHub Pages Live URL]()
 
 ## My process
