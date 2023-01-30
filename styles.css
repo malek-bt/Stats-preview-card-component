@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+    margin: 0 auto;
+    
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    
+}
+
+.row {
+    margin: 0;
+    
+}
+.top-side {
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    display: block;
+    
+   
+}
+
+.desktop-img {
+    display: none;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.h1-span {
+    color: hsl(277, 64%, 61%);
+
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1rem;
+    text-align: center;
+    margin: 2rem;
+
+}
+
+.states1 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.65rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.states-span {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+@media screen and (min-width:800px) {
+    .card {
+        
+        max-width: 70vw;
+    }
+    
+    .top-side {
+        padding: 0 ;
+        border-bottom-right-radius: 1rem;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        
+       
+    }
+    .desktop-img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+        border-radius: 1rem;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        mix-blend-mode: multiply;
+        opacity: 0.8;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    h1 {
+        text-align: start;
+        margin: 3rem;
+        
+        font-weight: 700;
+        font-size: 2rem;
+        
+    }
+
+    p {
+        text-align: start;
+        margin-left: 3rem;
+        margin-right: 6rem;
+    }
+
+    .states {
+        text-align: center;
+        margin-left: 3rem;
+        margin-right: 6rem;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .states1 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+
+}
