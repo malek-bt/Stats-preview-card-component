@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 * {
-    
     padding: 0;
     box-sizing: border-box;
 }
@@ -22,6 +21,7 @@ body {
     padding: 0;
     
 }
+
 
 .card {
     background-color: hsl(244, 38%, 16%);
